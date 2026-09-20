@@ -3,6 +3,7 @@
 An end-to-end photogrammetry pipeline that reconstructs a dense 3D point cloud and a triangle mesh from a set of overlapping images. Built on a **custom PyCOLMAP** compiled from source with **CUDA** support, and **Open3D** for surface reconstruction.
 
 Tested on the **South Building** dataset (COLMAP demo data).
+![Point cloud reconstruction](docs/pointcloud.gif)
 
 ---
 
