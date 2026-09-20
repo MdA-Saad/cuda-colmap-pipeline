@@ -1,0 +1,14 @@
+[project]
+name = "mesh-reconstruction-pycolmap"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.4.6",
+    "open3d>=0.20.0",
+    "pycolmap",
+]
+
+[tool.uv.sources]
+pycolmap = { path = "../../../custom_python_packages/pycolmap-4.1.0.dev0-cp311-cp311-linux_x86_64.whl" }
